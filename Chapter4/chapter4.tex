@@ -1,0 +1,18 @@
+%!TEX root = ../thesis.tex
+%*******************************************************************************
+%****************************** Forth Chapter **********************************
+%*******************************************************************************
+\chapter{Conclusion}
+
+% **************************** Define Graphics Path **************************
+\ifpdf
+    \graphicspath{{Chapter3/Figs/Raster/}{Chapter3/Figs/PDF/}{Chapter3/Figs/}}
+\else
+    \graphicspath{{Chapter3/Figs/Vector/}{Chapter3/Figs/}}
+\fi
+
+
+
+WSC traces are proved to be significantly varied from application to application. Considering usually only a small amount of applications running on WSC and WSC has specific tasks and targetted functionality, It can be a emerging to specialize a branch predictor for common application. Besides, the superiority of TAGE has once again been confirmed on WSC traces. Despite much larger amount of unique branches giving pressure to the capacity, lower MPKI reported by WSC sets is a suggestion to some feature that makes predictino easier. Finally, according to the MPKI from predictors with unlimited capacity, the improvement of increasing capacity can be expected to be larger on WSC than server.\par\hspace*{\fill}\par
+
+This project aims to provide an starting points for study branch predictor on warehouse-scale computers. Trace format conversion and simulation has been done. Interesting features of WSC are concluded and suggestions for optimizing the branch predictor on WSC are given. Further study can first try to address the limits of this project mentioned in Section~\ref{result discussion}, then explore ways to improve branch predictor on WSC.
